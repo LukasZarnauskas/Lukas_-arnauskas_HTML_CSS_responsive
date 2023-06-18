@@ -1,0 +1,210 @@
+/* Main Header */
+.main-header {
+  margin-top: 3.2rem;
+}
+.menu-burger {
+  cursor: pointer;
+}
+.main-nav {
+  gap: 2.8rem;
+}
+.purple {
+  color: #ff3998;
+}
+.line {
+  width: 2.4rem;
+  height: 0.4rem;
+  background-color: #999999;
+  margin-top: 0.5rem;
+  border-radius: 3px;
+}
+
+/* HERO SECTION */
+.hero-section {
+  margin-top: 4.2rem;
+  margin-bottom: 8rem;
+  margin-left: 3.2rem;
+  min-width: 58.3rem;
+}
+.hero-article {
+  margin-top: 3.8rem;
+  z-index: 1;
+}
+.nft-title {
+  font-size: 4.8rem;
+  font-weight: 900;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.robot-img {
+  width: 31rem;
+  height: 31rem;
+  object-fit: cover;
+}
+
+/* Free-NFT-section */
+
+.Free-NFT-section {
+  background: url(../img/background.svg) no-repeat center;
+  background-size: cover;
+  padding-top: 12.2rem;
+  padding-bottom: 3.2rem;
+  margin-bottom: 5.4rem;
+}
+.text-black {
+  color: #111111;
+  margin-bottom: 0;
+}
+/* Companies-section */
+.companies-section {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  row-gap: 2.8rem;
+  column-gap: 3rem;
+  margin-bottom: 6.6rem;
+}
+.boomerang {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.blimp {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.qrco {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.droplet {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+/* Auction-section */
+.auction-text {
+  margin-bottom: 4rem;
+}
+.OpenSea-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 500;
+}
+
+/* Auction section - cads-box */
+.auction-section {
+  margin-bottom: 9.2rem;
+}
+.scroll-div {
+  overflow-x: scroll;
+}
+.cards-box {
+  overflow-x: scroll;
+  min-width: 128rem;
+  gap: 4rem;
+  margin-left: 3.2rem;
+}
+.card {
+  background-color: #eeeeee;
+  border-radius: 16px;
+
+  padding-left: 24;
+  width: 29rem;
+}
+.text-flex {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+.card-img {
+  margin-bottom: 2.4rem;
+  width: 100%;
+}
+.series,
+.bid {
+  color: #ff8139;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.bid {
+  color: #777777;
+}
+.name,
+.price {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  gap: 0.8rem;
+}
+.number,
+.time-left {
+  font-size: 1.8rem;
+  color: #777777;
+  margin-bottom: 2.4rem;
+}
+
+/*  launching-soon-section */
+.launching-soon-section {
+  min-width: 39.6rem;
+  border-bottom: 2px solid #11111112;
+  border-top: 2px solid #11111112;
+  margin-bottom: 6.4rem;
+}
+.launching-soon-div {
+  gap: 1.5rem;
+}
+.launching-soon-article {
+  min-width: 20.7rem;
+}
+.launching-soon-article .header-pink {
+  margin-top: 6.4rem;
+}
+.launching-soon-section-nft-title {
+  font-size: 5.6rem;
+  line-height: 6.8rem;
+}
+.launching-soon-article .btn {
+  margin-bottom: 5.6rem;
+}
+
+.woman-img {
+  align-self: flex-end;
+}
+
+/* FOOTER */
+
+/* footer-top */
+.footer-top {
+  margin-bottom: 6.4rem;
+}
+.footer-top-title {
+  color: #555555;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  margin-bottom: 3.2rem;
+}
+.social-logos svg {
+  margin-right: 1.6rem;
+}
+/* footer-main */
+.footer-main {
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  margin-bottom: 6.4rem;
+}
+.footer--title {
+  color: #555555;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 2.8rem;
+}
+/* footer-copyright */
+.footer-copyright {
+  margin-bottom: 10.5rem;
+}
+.copyright {
+  color: #999999;
+  margin-bottom: 0;
+}

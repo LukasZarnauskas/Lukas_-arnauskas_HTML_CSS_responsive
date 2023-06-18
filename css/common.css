@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* 1 rem = 10px */
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  color: #111111;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+}
+p,
+li,
+a {
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* common rules */
+.container {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+
+  /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
+  margin: 0 auto;
+}
+.none-phone {
+  display: none;
+}
+.header-pink {
+  color: #ff3998;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.title {
+  font-weight: 500;
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+  line-height: 4.8rem;
+}
+.text {
+  color: #555555;
+  line-height: 3rem;
+  margin-bottom: 3.2rem;
+}
+.btn {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  padding-left: 5.4rem;
+  padding-right: 5.4rem;
+  border: 3px solid #ff8139;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.unlisted {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  color: #555555;
+}
+
+/* utility classes */
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
